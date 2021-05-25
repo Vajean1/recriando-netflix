@@ -20,7 +20,12 @@ function botaoAssistir(elemento){
     window.open("https://www.youtube.com/watch?v=xUntodg-vXY")
 }
 
-/* function botaoInfo(elemento){
-    Não consegui criar um popup :c  
+var popup = document.getElementById('popup')
+
+function botaoInfo(id){   
+    popup.style.display = "block"
 }
-*/
+
+function back(id){
+    popup.style.display = "none"
+}

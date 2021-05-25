@@ -62,7 +62,6 @@ header nav a:hover{
     flex-direction: column; /* mudar o tipo do flex, que por padrão vem em linha */
     justify-content: center;
     align-items: flex-start; /* atributo flex-start, para alinhar da esquerda para direita */
-
 }
 
 .filme-principal .descricao{
@@ -97,14 +96,6 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.container .botao-assistir, .botao-info{
-    display: inline;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    margin-left: 15px;
-}
-
 .container{
     margin-left: 20px;
 }
@@ -129,4 +120,47 @@ header nav a:hover{
     margin: 10px;
     font-weight: bold;
     margin-left: 40px;
+}
+
+/* popup */
+
+
+#popup {
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow:5px 3px 3px black;
+    width: 63%;
+    height: 70%;
+    display: none;
+    position: absolute;
+    background-color:var(--preta);
+    margin-left: 15%;
+}
+
+#popup .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#popup a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+#popup a:hover{
+    color: #fff;
+}
+
+#popup .titulo-popup{
+    margin-top: 23%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#popup .descricao-popup{
+    margin-left: 10px;
 }
