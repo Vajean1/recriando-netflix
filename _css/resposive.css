@@ -1,0 +1,26 @@
+/* regra de responsividade, quando for até 700px
+ele vai usar esta regra, caso contrário não */
+
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 200px;
+        height: 60px;
+    }
+
+    .botoes{
+        display: flex;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao {
+        width: 50%;
+    }
+}

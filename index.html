@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="_css/style.css">
+	<!-- Responsividade -->
+	<link rel="stylesheet" href="_css/resposive.css">
+	<!-- OWL CSS-->
+	<link rel="stylesheet" href="_css/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="_css/owl/owl.theme.default.min.css">
+	
+	<title>Horrorflix</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img src="_img/logo-horror.png" alt="logo do site" class="logo"> 
+			<nav>
+				<a href="#">Ínicio</a>
+				<a href="#">Filmes</a>
+				<a href="#">Séries</a>
+				<a href="#">Documentários</a>
+			</nav>
+		</div>
+	</header>
+	
+	<main> <!-- tag para o SEO do navegador entender que é o conteúdo principal. -->
+		<div class="filme-principal">
+			<div class="container"> <!-- container class, muito importante para manusear as coisas de dentro -->
+				<h3 class="titulo">O Exorcista</h3>
+				<p class="descricao">Em Georgetown, Washington, uma atriz vai gradativamente tomando consciência que a sua filha de doze anos está tendo um comportamento completamente assustador. Deste modo, ela pede ajuda a um padre, que também um psiquiatra, e este chega a conclusão de que a garota está possuída pelo demônio. Ele solicita então a ajuda de um segundo sacerdote, especialista em exorcismo, para tentar livrar a menina desta terrível possessão.</p>
+					<button role="button" class="botao" onclick="botaoAssistir(this)">
+						<i class="fas fa-play"></i>
+						Assistir Agora
+					</button>
+					<button role="button" class="botao" onclick="botaoInfo()">
+						<i class="fas fa-info-circle"></i>
+						Mais Informações
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<div class="carrosel-filmes">
+		<p class="tipo-filme">Clássicos</p>
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="_img/mini1.jpg" alt="capa de serie1" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini2.jpg" alt="capa de serie2" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini3.jpg" alt="capa de serie3" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini4.jpg" alt="capa de serie4" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini5.jpg" alt="capa de serie5" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini6.jpg" alt="capa de serie6" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini7.jpg" alt="capa de serie7" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini8.jpg" alt="capa de serie8" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini9.jpg" alt="capa de serie9" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini10.jpg" alt="capa de seri10" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini11.jpg" alt="capa de seri11" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini12.jpg" alt="capa de seri12" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini13.jpg" alt="capa de seri13" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini14.jpg" alt="capa de seri14" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini15.jpg" alt="capa de seri15" class="box-filme">
+			</div>
+		</p>
+	</div>
+	<div class="carrosel-filmes">
+		<p class="tipo-filme">Mais assistidos</p>
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="_img/mini16.jpg" alt="capa de serie16" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini17.jpg" alt="capa de serie17" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini18.jpg" alt="capa de serie18" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini19.jpg" alt="capa de serie19" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini20.jpg" alt="capa de serie20" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini21.jpg" alt="capa de serie21" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini22.jpg" alt="capa de serie22" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini23.jpg" alt="capa de serie23" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini24.jpg" alt="capa de serie24" class="box-filme">
+			</div>
+			<div class="item">
+				<img src="_img/mini25.jpg" alt="capa de seri25" class="box-filme">
+			</div>
+		</p>
+	</div>
+
+	<script src="https://kit.fontawesome.com/00ed439445.js" crossorigin="anonymous"></script> <!-- script de icones em js -->
+	<script src="_js/owl/jquery.min.js"></script>
+	<script src="_js/owl/owl.carousel.min.js"></script>
+	<script src="_js/main.js"></script>
+
+</body>
+</html>
+
