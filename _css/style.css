@@ -55,7 +55,7 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/_img/exorcista-capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../_img/exorcista-capa.jpg');
     height: 600px;
     background-size: cover; /* vai pegar a área de cobertuda da box, e deixar a imagem do tamanho adequado */
     display: flex;
