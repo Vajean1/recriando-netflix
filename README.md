@@ -1,2 +1,2 @@
 # recriando-netflix
-Projeto recriando a página inicial da netflix, utilizando Jquery e flexbot.
+Projeto recriando a página inicial da netflix, utilizando Jquery e flexbox.
